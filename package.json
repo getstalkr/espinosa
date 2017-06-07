@@ -19,7 +19,7 @@
     "start": "node ./",
     "test:lint": "xo",
     "test:spec": "ava",
-    "test": "yarn test:lint && yarn test:spec"
+    "test": "npm run test:lint && npm run test:spec"
   },
   "dependencies": {
     "micro": "^7.3.3",
