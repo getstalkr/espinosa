@@ -16,8 +16,10 @@
   "author": "matt <ythecombinator>",
   "license": "MIT",
   "scripts": {
-    "start": "micro",
-    "test": "xo && ava"
+    "start": "node ./",
+    "test:lint": "xo",
+    "test:spec": "ava",
+    "test": "yarn test:lint && yarn test:spec"
   },
   "dependencies": {
     "micro": "^7.3.3",
