@@ -1,0 +1,13 @@
+sudo: false
+language: node_js
+node_js:
+  - 'stable'
+notifications:
+webhooks:
+  urls:
+    - https://stalkr-travis-demo.herokuapp.com
+  on_success: always
+  on_failure: always
+  on_start: always
+  on_cancel: always
+  on_error: always
