@@ -19,15 +19,17 @@
     "start": "node ./",
     "test:lint": "xo",
     "test:spec": "ava",
-    "test": "npm run test:lint && npm run test:spec"
+    "test": "npm run test:spec"
   },
   "dependencies": {
     "micro": "^7.3.3",
     "microrouter": "^2.1.1",
+    "replace-in-file": "^2.5.0",
+    "simple-git": "^1.73.0",
     "unique-random-array": "^1.0.0"
   },
   "devDependencies": {
-    "ava": "*",
+    "ava": "^0.19.1",
     "xo": "^0.16.0"
   },
   "xo": {
