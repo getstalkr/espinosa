@@ -19,7 +19,8 @@
     "start": "node ./",
     "test:lint": "xo",
     "test:spec": "ava",
-    "test": "npm run test:spec"
+    "test": "npm run test:spec",
+    "start:bot": "node ./bot"
   },
   "dependencies": {
     "micro": "^7.3.3",

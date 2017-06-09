@@ -30,7 +30,7 @@ const main = async function () {
     await gitRoutine('break');
     await fixBuildsRoutine();
     await gitRoutine('fix');
-  }, 1800000);
+  }, 300000);
 };
 
 main();
