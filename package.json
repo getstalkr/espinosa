@@ -20,7 +20,9 @@
     "test:lint": "xo",
     "test:spec": "ava",
     "test": "npm run test:spec",
-    "start:bot": "node ./bot"
+    "start:bot": "node ./bot",
+    "docs:README": "markdown-toc README.md -i",
+    "docs:README:watch": "onchange 'README.md' -- npm run docs:TOC"
   },
   "dependencies": {
     "micro": "^7.3.3",
@@ -31,6 +33,8 @@
   },
   "devDependencies": {
     "ava": "^0.19.1",
+    "markdown-toc": "^1.1.0",
+    "onchange": "^3.2.1",
     "xo": "^0.16.0"
   },
   "xo": {
