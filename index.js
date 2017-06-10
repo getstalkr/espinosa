@@ -1,7 +1,7 @@
 const micro = require('micro');
 const { router, get } = require('microrouter');
 const random = require('./helpers/random');
-const products = require('../products');
+const products = require('./products');
 
 const randomHandler = async (req, res) =>
   micro.send(res, 200, await Promise.resolve(random(products)));
