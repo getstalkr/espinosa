@@ -3,7 +3,7 @@ const random = require('./helpers/random');
 const all = require('./products');
 
 test('all()', t => {
-  t.true(all.length < 0);
+  t.true(all.length > 0);
 });
 
 test('random()', t => {
